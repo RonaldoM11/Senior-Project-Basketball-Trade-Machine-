@@ -1,0 +1,156 @@
+<html lang="en">
+<head>	
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Russo One' rel='stylesheet'>
+    <title> BASKETBALLDEV LOGIN</title>
+	<style type="text/css">
+		br{
+			line-height: 10px;
+		}
+		.navbar {
+  			width: 100%;
+  			background-color:#000000;
+  			overflow: auto;
+		}
+		.navbar a {
+  			float: right;
+  			padding: 12px;
+  			color: white;
+  			text-decoration: none;
+  			font-size: 17px;
+		}
+		.navbar a:hover {
+  			background-color: #FF0000;
+		}
+        .dropdown {
+            float: right;
+            overflow: hidden;
+        }
+        div{
+            background-color: Black;
+        }
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0; 
+        }
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        body{
+            background-color:#F5F5F5;
+            font-family: 'Russo One';
+            margin-top:20px;
+		}
+		h3{
+			color:#000000;
+        }
+        h4{
+            color:#FF0000;
+        }
+        .top{
+			margin-top: 10px;	
+		}
+        .customerservice{
+			color:#FF0000;
+			margin:auto;
+			background:#F5FFFA;
+			max-width:600px;
+			padding:15px;
+			border-radius:20px;
+		}
+		footer{
+			text-align:center;
+			color:#ffffff;
+			background-color:#006600;
+			padding 15px 0;
+		}
+		.bottom{	
+        	position: absolute;
+        	bottom: 0;
+			left: 0;
+        	width: 100%;
+        	color: #FF0000;
+			background-color:#000000;
+			padding: 15px 0;
+      		}		
+	</style>
+</head>
+<body>
+<div class="navbar">
+	<h3>
+  	<a href="Home.php"><i class="fa fa-fw fa-user"></i>HOME</a>
+	</h3>
+    <div class="dropdown">
+            <button class="dropbtn">
+                SETTINGS
+            <i class="fa fa-caret-down"></i>
+            </button>
+        <div class="dropdown-content">
+            <a href="#">Color Blind setting 1</a> 
+            <a href="#">Color Blind setting 2</a>
+            <a href="#">Color Blind setting 3</a>
+        </div>
+        </div>
+    </div>
+
+	<div class="top"></div>
+	<div class="customerservice">
+		<h1>FREQUENTLY ASKED QUESTIONS</h1>
+        <hr style="width:90%; height:2px; color:red; background-color:red">
+		<form action="">
+            <h3><p>How do I create an account?</p></h3>
+			<h4><p>-Create a username and password that you can remember.</p></h4>
+			<h3><p>What is a Rookie?</p></h3>
+            <h4><p>-A Rookie is a freshly recruited basketball player in the NBA league.</p></h4>
+			<h3><p>Who has the most championships in the NBA?</p></h3>
+            <h4><p>-The teams with the most championships in NBA history are the Los Angeles Lakers (16) and the Boston Celtics (16).</p></h4>
+			<h3><p>How many teams are in the NBA league?</p></h3>
+            <h4><p>-There are 30 teams currently in the NBA.</p></h4>
+			<h3><p>Who has scored the most points in NBA history?</p></h3>
+            <h4><p>-The player with the most points scored in the history of the NBA is LeBron James (38,469).</p></h4>
+			<h3><p>Does this website have the NCAA teams?</p></h3>
+            <h4><p>-The BasketBallDev website does not currenly offer the NCAA teams.</p></h4> 
+            <h3><p>What do the letters NBA stand for?</p></h3>
+            <h4><p>-The letters NBA stand for National Basketball Association.</p></h4>
+			<br>
+		</form>
+
+	<footer>
+        <div class="bottom"> 
+            &copy; BASKETBALLDEV <hr style="width:1000px">
+            <p>
+            <h6><a href="Developers_Home.html" style="color:white">MEET THE DEVELOPERS</a> | <a href="Home.php" style="color:white">HOME</a> | <a href="Questions_Home.html" style="color:white">FREQUENTLY ASKED QUESTIONS</a></h6>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
